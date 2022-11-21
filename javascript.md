@@ -146,10 +146,10 @@ JS特点：单线程
 你在做一件事情时，因为这件事情会花费很长时间，在做这件事的同时，你还可以去处理其他事情。比如做饭的异步做法，我们在烧水的同时，利用这10分钟，去切菜，炒菜。
 
 ### JS执行机制(事件循环)
+![361c905af7153b1fe1ad9a882ac150e0](https://user-images.githubusercontent.com/112193327/203088229-38e96694-91c3-40f8-8b2b-f79cc8f2f7c4.png)
+![94522dfb7cd2feed50a754941aff882f](https://user-images.githubusercontent.com/112193327/203088311-1dfe6d4e-440b-46ad-825b-d947f0baf01d.png)
 
-![截图](361c905af7153b1fe1ad9a882ac150e0.png)
 
-![截图](94522dfb7cd2feed50a754941aff882f.png)
 
 # 数组
 
