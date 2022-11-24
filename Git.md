@@ -191,6 +191,15 @@ git pull
 
 git push 远程仓库名 --delete 远程分支名
 
+### 从远程仓库获取所有分支
+新建一个空文件夹进入根目录
+```
+git clone xxx
+git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+git fetch --all
+git pull --all
+```
+
 # warning: in the working copy of 'xxx.md', LF will be replaced by CRLF the next time Git touches it
 
 换行符CRLF会被替换成LF
