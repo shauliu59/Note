@@ -198,7 +198,7 @@ console.log(phone[0]); //Xiaomi
 #### 
 
 ### 返回数组元素索引
-
+数组名.indexOf(数组元素); //只满足第一个数组元素，找不到返回-1
 ```javascript
 var phone = new Array("Xiaomi","Iphone");
 console.log(phone.indexOf("Xiaomi")); //0
@@ -216,9 +216,6 @@ console.log(phone.indexOf("HuaWei")); //-1 未找到
   console.log(phone.join("/"));  //'Xiaomi/Iphone' 
   ```
 
-### 返回数组元素索引
-
-数组名.indexOf(数组元素); //只满足第一个数组元素，找不到返回-1
 
 ### 数组拷贝
 
